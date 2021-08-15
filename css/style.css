@@ -1,0 +1,239 @@
+/* -------------------colors--------------- */
+.color1
+{
+    background-color:  #CDB4DB ;
+}
+.color2
+{   
+    background-color: #FFC8DD !important;   
+}
+.color3
+{
+    background-color: #ffe1ec;
+}
+.color4
+{
+    background-color:rgb(237, 254, 244);
+    
+}
+.color5
+{
+    background-color: #A2D2FF ;
+}
+.color-white
+{
+    background-color: #fff;
+}
+.color6
+{
+    background-color:  #029ca5;
+}
+.text-color
+{
+    color:  #062265;
+}
+.ctransparant
+{
+    background-color: transparent !important;
+}
+/* -------------------------------the curve----------------------- */
+*
+{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+.background
+{
+ position: relative;
+ background:linear-gradient(90deg,rgb(237, 254, 244),rgb(237, 254, 244)) ;
+ height: 130vh;
+}
+.background svg
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* ----------------------------fonts -----------------------*/
+body
+{
+    font-family: 'DM Serif Display', serif;
+   
+}
+.font-size1
+{
+    font-size: 40px;
+}
+.font-size2
+{
+    font-size: 73px;
+}
+.aColor
+{
+
+    color: #062265 !important;
+    transition: all 0.25s;
+}
+.head-color
+{
+    color:#46b3e6;
+}
+.aColor:hover
+{
+    color:#f85593 !important;
+}
+
+/* --------------------------buttons---------------- */
+
+.btn1
+{
+    transition: all 0.5s;
+}
+.btn1:hover
+{
+    color: #062265 !important;
+    background-color: #FFC8DD ;   
+}
+
+/*----------------------------- navgationbar------------------ */
+
+.navgationbar
+{
+    position: fixed;
+    z-index: 99999;
+    background:linear-gradient(90deg,rgb(237, 254, 244),rgb(237, 254, 244)) ;
+}
+.dropdown-menu
+{
+    border: none;
+   
+}
+.dropdown-item
+{
+    border-bottom: 1px solid rgb(221, 221, 221);
+
+}
+.special
+{
+    border: none !important;
+}
+/* --------------------------head-marker---------------------- */
+.head-marker
+{
+    height: 3px;
+    width: 80px;
+    background-color: rgb(237, 254, 244);
+    transition: all 0.5s;
+}
+/* ------------------home second part  -------------*/
+.option
+{
+    margin: 50px;
+    transition: box-shadow 1s ,display 1s ;
+}
+.option:hover
+{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .4);
+}
+.option:hover .option-button
+{
+    display: block;
+}
+.text-hiegh
+{
+    height: 100px;
+}
+.option-button
+{
+    height: 8px;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color:#46b3e6 ;
+    transition: display 1s;
+    display: none;
+}
+.option1
+{
+ overflow: hidden;
+}
+.option-img
+{
+    height: 100px;
+}
+.layout
+{
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    background:linear-gradient(90deg,rgba(237, 254, 244,.5),rgb(237, 254, 244 ,.5)) ;
+    transition: bottom 1s;
+    /* opacity: 0; */
+}
+.descreption
+{
+    opacity: 0;
+    transition: opacity 2s;
+}
+.option1:hover .layout
+{
+   bottom: 0;
+}
+.option1:hover .descreption
+{
+   opacity: 1;
+}
+
+
+@media screen and (max-width:768px)
+{
+ .navbar-nav
+ {
+     background-color:rgb(180, 235, 203);  
+     margin: auto !important;
+     text-align: center;
+     border: 1px solid rgba(255, 255, 255, 0.1);
+     width: 75%;
+     border-radius: 10px !important;
+     
+ }
+ .border
+ {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    text-align: center;
+ }
+ .collapse
+ {
+     width: 75% !important;
+ }
+ 
+ .nav-btn
+ {
+  margin-top:10px !important;
+  margin-bottom:10px !important; 
+  margin-right: 40px !important;
+   margin: auto !important;
+ }
+ .Home-text
+ {
+     text-align: center;
+ }
+ .option
+ {
+     width: 80% ;
+     margin: auto !important;
+ }
+}    
+@media screen and (min-width:768px)
+{
+    .border
+    {
+        border: none !important ;
+    } 
+}
