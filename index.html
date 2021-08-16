@@ -6,9 +6,18 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+      <section class="loading">
+        <div class="spinner">
+          <div class="bounce1"></div>
+          <div class="bounce2"></div>
+          <div class="bounce3"></div>
+        </div>
+      </section>
+    
         <!-- navgationbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light navgationbar w-100">
           <a class="navbar-brand" href="#">Navbar</a>
@@ -75,7 +84,7 @@
              
                 <div class="row ">
                     <div class="col-md-7">
-                        <div>
+                        <div class="wow bounceInUp">
                             <h2 class="text-color font-size1 py-3 my-5">Connect with the</h2>
                             <h2 class="text-color font-size2 py-1">Holy Quran</h2>
                             <p class="text-muted py-1">Start learning Quran Reading, Tajweed, and Memorization <br> online and from the comfort of your home.</p>
@@ -201,6 +210,7 @@
 
 
         <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/wow.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/script.js"></script>
