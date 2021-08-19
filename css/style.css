@@ -1,3 +1,4 @@
+/* -----------loading screan------------- */
 body
 {
     overflow: hidden;
@@ -154,14 +155,23 @@ body
     color: #062265 !important;
     background-color: #FFC8DD ;   
 }
-
+.container
+{
+   
+}
 /*----------------------------- navgationbar------------------ */
-
+.mora
+{
+    overflow: hidden;
+}
 .navgationbar
 {
     position: fixed;
     z-index: 99999;
-    background:linear-gradient(90deg,rgb(237, 254, 244),rgb(237, 254, 244)) ;
+    transition: background-color 1s ,opacity 1s .5s;
+    width: 80%;
+    margin:auto !important;
+    /* background:linear-gradient(90deg,rgb(237, 254, 244),rgb(237, 254, 244)) ; */
 }
 .dropdown-menu
 {
